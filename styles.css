@@ -1,7 +1,9 @@
 /* Adjusting the top margin of the header to remove excess space above the logo */
 header {
     margin-top: 0;
-    background: #ffffff; /* Змінено колір фону на білий */
+    background: #A9A9A9; /* Dark Gray background for logo */
+}
+
 }
 
 }

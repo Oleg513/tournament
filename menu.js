@@ -1,9 +1,9 @@
-// Отримати кнопку та меню
+// Отримання кнопки та меню
 const toggleMenuButton = document.getElementById('toggleMenuButton');
 const mainMenu = document.getElementById('mainMenu');
 
-// Додати обробник події для кнопки
+// Додавання обробника подій для кнопки
 toggleMenuButton.addEventListener('click', function() {
-    // Змінити клас, щоб показати/сховати меню
+    // Зміна класу для показу/приховування меню
     mainMenu.classList.toggle('active');
 });

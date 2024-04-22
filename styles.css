@@ -66,6 +66,8 @@ button:hover {
     margin: 0 auto;
     animation: bloomEffect 2s infinite ease-in-out;
 }
+    animation: bloomEffect 2s infinite ease-in-out;
+}
 
 /* Адаптивність */
 @media (max-width: 600px) {

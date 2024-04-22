@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iron Spirit Tournament</title>
-    <!-- Підключення стилів та шрифтів -->
+    <!-- Підключення стилів -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Шапка сайту з навігацією -->
     <header>
-        <img src="BackgroundEraser_20240422_190042657.png.png" alt="Iron Spirit Logo" id="tournamentLogo" style="width:100%; height:auto; display: block;">
-        <nav>
+        <div class="header-container">
+            <img src="BackgroundEraser_20240422_190042657.png.png" alt="Iron Spirit Logo" id="tournamentLogo">
+            <button id="toggleMenuButton">Меню</button>
+        </div>
+        <nav id="mainMenu">
             <ul>
                 <li><a href="#home">Головна</a></li>
                 <li><a href="#about">Про Нас</a></li>
@@ -39,6 +42,8 @@
 
     <!-- Підвал сайту -->
     <footer><p>© 2024 Iron Spirit Tournament. Всі права захищені.</p></footer>
+
+    <!-- Підключення скрипта -->
+    <script src="script.js"></script>
 </body>
 </html>
-

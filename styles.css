@@ -62,6 +62,8 @@ button:hover {
 }
 
 #tournamentLogo {
+    display: block;
+    margin: 0 auto;
     animation: bloomEffect 2s infinite ease-in-out;
 }
 

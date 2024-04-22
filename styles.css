@@ -20,11 +20,11 @@ header {
 
 nav ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 20px;
 }
 
@@ -33,11 +33,30 @@ nav ul li a {
     color: #61dafb;
     font-size: 1.2em;
     padding: 5px 10px;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover, nav ul li a:focus {
-    text-decoration: underline;
     color: #ffffff;
+    background-color: #61dafb;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button:hover, button:focus {
+    background-color: #4095c6;
+}
     background-color: #61dafb;
     border-radius: 5px;
 }

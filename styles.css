@@ -1,7 +1,9 @@
 /* Adjusting the top margin of the header to remove excess space above the logo */
 header {
     margin-top: 0;
-    /* Other styles unchanged */
+    background: #ffffff; /* Змінено колір фону на білий */
+}
+
 }
 
 #tournamentLogo {

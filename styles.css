@@ -63,7 +63,11 @@ button:hover {
 
 #tournamentLogo {
     display: block;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
+    animation: bloomEffect 2s infinite ease-in-out;
+}
     animation: bloomEffect 2s infinite ease-in-out;
 }
     animation: bloomEffect 2s infinite ease-in-out;

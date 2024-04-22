@@ -4,10 +4,6 @@ header {
     background: #A9A9A9; /* Dark Gray background for logo */
 }
 
-}
-
-}
-
 #tournamentLogo {
     display: block;
     max-width: 100%;
@@ -16,17 +12,6 @@ header {
     /* Rest of the styles are unchanged */
 }
 
-/* Other CSS rules unchanged */
-    }
-    50% {
-        filter: brightness(1.5);
-    }
-}
-
-#tournamentLogo {
-    display: block;
-    max-width: 100%;
-    max-height: 100vh;
 /* Adding spacing between sections for better visual separation */
 section {
     margin-top: 50px;
@@ -36,9 +21,6 @@ section {
 /* Ensure that the first section has no top margin for proper alignment */
 section:first-of-type {
     margin-top: 0;
-}
-
-/* Rest of the styles unchanged */
 }
 
 /* Адаптивність */

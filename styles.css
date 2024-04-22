@@ -23,19 +23,18 @@ header {
     display: block;
     max-width: 100%;
     max-height: 100vh;
-    object-fit: contain;
-    margin: 0 auto;
-    animation: bloomEffect 2s infinite ease-in-out;
+/* Adding spacing between sections for better visual separation */
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-    height: auto;
-    margin: 0 auto;
-    animation: bloomEffect 2s infinite ease-in-out;
+
+/* Ensure that the first section has no top margin for proper alignment */
+section:first-of-type {
+    margin-top: 0;
 }
-    animation: bloomEffect 2s infinite ease-in-out;
-}
-    animation: bloomEffect 2s infinite ease-in-out;
-}
-    animation: bloomEffect 2s infinite ease-in-out;
+
+/* Rest of the styles unchanged */
 }
 
 /* Адаптивність */
